@@ -18,11 +18,32 @@ return (
       </nav>
       </div>
 
-      <div className=" h-72 bg-slate-300">
-        <div className="flex justify-start "><h1>soothing somthing</h1></div>
-        <p>somthing somthing somthing somthing somthing somthing somthing somthing somthing somthing </p>
-        <p>somthing somthing somthing somthing somthing somthing somthing somthing somthing somthing somthing somthing somthing somthing somthing somthing somthing somthing </p>
-        <h4></h4>
+      <div className=" grid grid-cols-4 p-2 gap-2  bg-slate-300 h-72">
+        
+        <div className="flex rounded-2xl p-4  flex-nowrap justify-center bg-slate-800 items-center flex-col">
+        <h1 className="p-2 font-bold text-3xl text-white ">Card</h1>
+        <p className="p-2 font-normal text-slate-400 ">somthing somthing somthing somthing somthing somthing </p>
+        <p className="p-2 font-normal text-slate-400 ">somthing somthing somthing somthing somthing somthing </p>
+        </div>
+
+        <div className="flex rounded-2xl p-4  flex-nowrap justify-center bg-slate-800 items-center flex-col">
+        <h1 className="p-2 font-bold text-3xl text-white ">Card</h1>
+        <p className="p-2 font-normal text-slate-400 ">somthing somthing somthing somthing somthing somthing </p>
+        <p className="p-2 font-normal text-slate-400 ">somthing somthing somthing somthing somthing somthing </p>
+        </div>
+
+        <div className="flex rounded-2xl p-4  flex-nowrap justify-center bg-slate-800 items-center flex-col">
+        <h1 className="p-2 font-bold text-3xl text-white ">Card</h1>
+        <p className="p-2 font-normal text-slate-400 ">somthing somthing somthing somthing somthing somthing </p>
+        <p className="p-2 font-normal text-slate-400 ">somthing somthing somthing somthing somthing somthing </p>
+        </div>
+
+        <div className="flex rounded-2xl p-4  flex-nowrap justify-center bg-slate-800 items-center flex-col">
+        <h1 className="p-2 font-bold text-3xl text-white ">Card</h1>
+        <p className="p-2 font-normal text-slate-400 ">somthing somthing somthing somthing somthing somthing </p>
+        <p className="p-2 font-normal text-slate-400 ">somthing somthing somthing somthing somthing somthing </p>
+        </div>
+
       </div>
     </main>
   )
