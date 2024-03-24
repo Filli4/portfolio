@@ -4,17 +4,15 @@ export default function Home() {
   
 
 return (
-    <main className="">
-     <div className="flex-cols p-6 gap-x-6 justify-between flex items-center bg-slate-200">
-      <p className="flex ">Profile</p>
-      <div>
-        <input placeholder="search" className="bg-slate-300 rounded-3xl px-6"></input>
-      </div>
-      <nav className="flex gap-x-6 ">
-      <a className="flex">nav-items</a>
-      <a className="flex">nav-items</a>
-      <a className="flex">nav-items</a>
-      <a className="flex">nav-items</a>
+    <main >
+     <div className="grid grid-cols-3 p-7 justify-around gap-x-8 items-center bg-slate-200">
+      <h1 className="grid justify-center">Profile</h1>
+        <input placeholder="search" className="bg-slate-300 grid rounded-3xl px-5"></input>
+      <nav className="grid  grid-cols-4 justify-center mx-4 ">
+      <a className="justify-center grid">home</a>
+      <a className="justify-center grid">about </a>
+      <a className="justify-center grid">contact </a>
+      <a className="justify-center grid">more</a>
       </nav>
       </div>
 
@@ -44,7 +42,7 @@ return (
         <p className="p-2 font-normal text-slate-400 ">somthing somthing somthing somthing somthing somthing </p>
         </div>
 
-      </div>
+      </div>   
     </main>
   )
 }
